@@ -21,7 +21,7 @@ I utilized Temporal Difference Q-learning with softmax exploration to train an a
 I have a win rate of 86% against (value_agent, valueplus_agent) and 63% against (random_agent, valueplus_agent). However, I only have a 46% win rate against (random_agent,random_agent) with the remaining 54% almost evenly split between being second place and being dead last. For the score, my agent has a higher score against every opponent in every scenario.
 
 # Engine files
-Download cosc343Raj.zip.  Extract it into your project folder.  You get several files:
+Download the files. Extract it into your project folder. You get several files:
 * human_agent.py - agent that provides text based interface for human player
 * my_rlagent.py - Reinforcement learning agent
 * raj.py -the main game file - you run this script to run the game
